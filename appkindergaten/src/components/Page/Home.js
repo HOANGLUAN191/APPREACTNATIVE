@@ -1,0 +1,27 @@
+import React from 'react';
+import {
+    StyleSheet,
+    Text,
+    View,
+} from 'react-native';
+export default class Home extends Component{
+    reder(){
+        return(
+            <View style={styles.container}>
+                <Text style={styles.text}>HA HA</Text>
+            </View>
+        );
+    }
+}
+
+const styles=StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor: '#2896d3'
+    },
+    text:{
+        color:'#fff'
+    }
+})
